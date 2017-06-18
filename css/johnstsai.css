@@ -1,5 +1,41 @@
+/*Body*/
+.text-center {
+	text-align: center;
+}
+
+/*Header*/
+
 .header-content {
 	position: relative;
  	text-align: center;
  	padding: 10%;
+}
+
+.about-header {
+	padding-bottom: 2%;
+}
+
+.about-box {
+	
+}
+
+/*Footer*/
+
+footer {
+	position: relative;
+	bottom: 0;
+}
+
+/*Vue CSS*/
+.fade-enter-active, .fade-leave-active {
+  transition-property: opacity;
+  transition-duration: .25s;
+}
+
+.fade-enter-active {
+  transition-delay: .25s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0
 }
